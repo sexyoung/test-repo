@@ -18,5 +18,5 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           repository: sexyoung/test-path
-          event-type: test-repo-event  # This should match the event type defined in repoA workflow
+          event-type: test-repo-event-A  # This should match the event type defined in repoA workflow
 
